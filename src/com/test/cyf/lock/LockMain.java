@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Àí½â¶ÔÏóËø ºÍ ÀàËø
+ * ç†è§£å¯¹è±¡é” å’Œ ç±»é”
  * @author Administrator
  *
  */
@@ -15,9 +15,9 @@ public class LockMain {
 
 	public static synchronized void testLock() {
 //		synchronized (LockMain.class) {
-//			System.out.printf("%sÏß³Ì½øÈë\n", num++);
+//			System.out.printf("%sçº¿ç¨‹è¿›å…¥\n", num++);
 //		}
-		System.out.printf("%s111Ïß³Ì½øÈë\n", num++);
+		System.out.printf("%sçº¿ç¨‹2è¿›å…¥\n", num++);
 	}
 	
 	public static void main(String[] args) throws InterruptedException {
