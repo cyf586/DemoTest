@@ -17,7 +17,7 @@ public class LockMain {
 //		synchronized (LockMain.class) {
 //			System.out.printf("%s线程进入\n", num++);
 //		}
-		System.out.printf("%s线程进入\n", num++);
+		System.out.printf("%s111线程进入\n", num++);
 	}
 	
 	public static void main(String[] args) throws InterruptedException {
